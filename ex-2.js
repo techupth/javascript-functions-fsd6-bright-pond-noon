@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const add = function add(a, b) {
   return a + b;
 };
@@ -21,3 +22,9 @@ const divide = function divide(a, b) {
 };
 let newDivide = divide(10, 5);
 console.log(newDivide);
+=======
+// Start coding here
+
+let add = function (a, b) {
+    return a + b
+}
