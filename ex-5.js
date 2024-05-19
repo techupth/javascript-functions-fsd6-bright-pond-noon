@@ -1,15 +1,11 @@
-
 let findMinNumber = (a, b) => {
   return Math.min(a, b);
 };
+const result = findMinNumber(5, 10);
+console.log(result);
 
-const minNumber = findMinNumber(10, 20);
-
-
-function findMinNumber(a, b) {
-    return Math.min(a, b);
+function findMaxNumber(a, b) {
+  return Math.max(a, b);
 }
-
-
-
-console.log(findMinNumber); // 10
+let resultMax = findMaxNumber(200, 50);
+console.log(resultMax);

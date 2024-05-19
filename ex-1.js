@@ -1,50 +1,24 @@
-
 function add(a, b) {
-  return a + b;
+  let totaladd = a + b;
+  return totaladd;
 }
-let newAdd = add(10, 5);
-console.log(newAdd);
+let resultAdd = add(10, 5);
+console.log(resultAdd);
 
 function subtract(a, b) {
   return a - b;
 }
-let newSubtract = subtract(10, 5);
-console.log(newSubtract);
+let resultSubtract = subtract(10, 5);
+console.log(resultSubtract);
 
-function multiply(a, b) {
+function mutiply(a, b) {
   return a * b;
 }
-let newMultiply = multiply(10, 5);
-console.log(newMultiply);
+let AddMutiply = mutiply(10, 5);
+console.log(AddMutiply);
 
 function divide(a, b) {
   return a / b;
 }
-let newDivide = divide(10, 5);
-console.log(newDivide);
-
-// Start coding here
-function add(a, b) {
-    return a + b
-}
-
-console.log(add(10, 5))
-
-function subtract(a, b) {
-    return a - b
-}
-
-console.log(subtract(10, 5))
-
-function multiply(a, b) {
-    return a * b
-}
-
-console.log(multiply(10, 5))
-
-function divide(a, b){
-    return a / b
-}
-
-console.log(divide(10, 5))
-
+let AddDivide = divide(10, 5);
+console.log(AddDivide);

@@ -1,67 +1,23 @@
-
-const add = (a, b) => {
+let Add = (a, b) => {
   return a + b;
 };
-let newAdd = add(10, 5);
-console.log(newAdd);
+const resultAdd = Add(10, 5);
+console.log(resultAdd);
 
-const subtract = (a, b) => {
+let subtract = (a, b) => {
   return a - b;
 };
-let newSubtract = subtract(10, 5);
-console.log(newSubtract);
+const resultSubtract = subtract(10, 5);
+console.log(resultSubtract);
 
-const multiply = (a, b) => {
+let mutiply = (a, b) => {
   return a * b;
 };
-let newMultiply = multiply(10, 5);
-console.log(newMultiply);
+const AddMutiply = mutiply(10, 5);
+console.log(AddMutiply);
 
-const divide = (a, b) => {
+let divide = (a, b) => {
   return a / b;
 };
-let newDivide = divide(10, 5);
-console.log(newDivide);
-
-let add = (a, b) => {
-  return a + b;
-};
-
-console.log(add(10, 5));
-
-let subtract = (a, b) => {
-  return a - b;
-};
-
-console.log(subtract(10, 5));
-
-let multiply = (a, b) => a * b;
-
-console.log(multiply(10, 5));
-
-let divide = (a, b) => a / b;
-
-console.log(divide(10, 5));
-
-// Start coding here
-
-let add = (a, b) => {
-    return a + b
-}
-
-console.log(add(10, 5))
-
-let subtract = (a, b) => {
-    return a - b
-}
-
-console.log(subtract(10, 5))
-
-let multiply = (a, b) => a * b; 
-   
-console.log(multiply(10, 5))
-
-let divide = (a, b) => a / b;
-    
-console.log(divide(10, 5))
-
+const AddDivide = divide(10, 5);
+console.log(AddDivide);
